@@ -6,7 +6,7 @@ This project implements fundamental algorithms from computational geometry in Py
 
 ## Implemented Algorithms and Structures
 
-1. **Convex Hull in the Plane (2D)**
+### 1. **Convex Hull in the Plane (2D)**
 
 Multiple classical algorithms for computing the convex hull of a finite set of points in the plane are implemented:
 
@@ -30,7 +30,7 @@ Code:
 - `src/algorithms/hull2d_divide_conquer.py`
 - `src/algorithms/hull2d_quickhull.py`
 
-2. **Convex Hull in Three Dimensions (3D)**
+### 2. **Convex Hull in Three Dimensions (3D)**
 
 An incremental algorithm for computing the convex hull of points in ℝ³ is implemented.
 
@@ -51,7 +51,7 @@ Code:
 - `src/algorithms/hull3d_incremental.py`
 
 
-3. **Linear Programming in Two Dimensions**
+### 3. **Linear Programming in Two Dimensions**
 
 An incremental geometric algorithm for solving linear programming problems in the plane is implemented.
 
@@ -65,7 +65,7 @@ Code:
 
 - `src/algorithms/lp2d_incremental.py`
 
-4. **Delaunay Triangulation via Lifting**
+### 4. **Delaunay Triangulation via Lifting**
 
 The repository includes an implementation of Delaunay triangulation using the lifting to a paraboloid technique.
 
@@ -82,7 +82,7 @@ Code:
 - `src/algorithms/delaunay_lifting.py`
 
 
-5. **Geometric Searching with KD-Trees**
+### 5. **Geometric Searching with KD-Trees**
 
 A KD-tree data structure for planar point sets is implemented, along with orthogonal range searching.
 
@@ -117,7 +117,6 @@ Code:
 - `src/geometry/random_points.py`
 - `src/geometry/plotting.py`
 
----
 
 
 
